@@ -1,0 +1,52 @@
+{
+  "name": "泰合礼 · 礼金簿",
+  "short_name": "泰合礼",
+  "description": "泰然存礼，和合记情。喜事礼金、多场次礼簿、人情往来、统计导出与本地备份。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "id": "./index.html",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#FBF6EA",
+  "theme_color": "#8B1E24",
+  "categories": ["finance", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "登记礼金",
+      "short_name": "记一笔",
+      "description": "打开泰合礼，快速登记一笔礼金",
+      "url": "./index.html#/records",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "人情提醒",
+      "short_name": "提醒",
+      "description": "查看待回礼与待答谢",
+      "url": "./index.html#/people",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
